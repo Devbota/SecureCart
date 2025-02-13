@@ -10,4 +10,18 @@ email: david@gmail.com
 
 password: importantuser12
 
+Can create another admin using: python manage.py createsuperuser
 
+Ensure you have the python modules: sslserver, Django and pillow:
+
+pip install pillow
+
+pip install sslserver
+
+pip install django
+
+
+Apply migrations if you have to: 
+
+python manage.py makemigrations shop
+python manage.py migrate
